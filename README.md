@@ -172,50 +172,6 @@ It does **not** provide medical diagnosis or treatment and should not replace ad
 AI-generated information should always be reviewed by an appropriate healthcare professional before making medical decisions.
 
 ---
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/eshwarjagini-source/fitnect.git
-cd fitnect
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Configure environment variables
-
-Create a `.env.local` file in the project root.
-
-Add the required Supabase and AI API credentials:
-
-```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-AI_API_KEY=your_ai_api_key
-```
-
-> Use the environment variable names provided by the application's implementation if they differ.
-
-### 4. Run the development server
-
-```bash
-npm run dev
-```
-
-Open:
-
-```text
-http://localhost:3000
-```
-
----
-
 ## 🎯 Hackathon MVP
 
 The primary hackathon workflow is:
