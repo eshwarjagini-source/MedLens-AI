@@ -1,0 +1,1042 @@
+Build a complete, polished, production-style web application called:
+
+FITTRACK
+
+## AI-Powered Clinical Information Intelligence
+
+### PRODUCT VISION
+
+MedLens is an AI-powered clinical information organization platform that transforms scattered patient information, medical reports, laboratory results, prescriptions, and medical history into a structured, understandable, and reviewable patient record.
+
+This is NOT a generic medical chatbot.
+
+The main purpose of MedLens is to help users organize and understand medical information by extracting, structuring, summarizing, and visually presenting information from uploaded medical documents.
+
+The application should feel like a modern healthcare technology product used by doctors, clinics, hospitals, and patients.
+
+---
+
+# 1. DESIGN DIRECTION
+
+Create a premium, modern, futuristic healthcare SaaS interface.
+
+## Theme
+
+Use a DARK / BLACK theme as the primary design.
+
+The interface should feel:
+
+* Premium
+* Professional
+* Clean
+* Minimal
+* Futuristic
+* Trustworthy
+* Medical/clinical
+* Easy to understand
+* Extremely user-friendly
+
+### Color system
+
+Primary background:
+
+* Almost-black / deep charcoal
+
+Use subtle secondary surfaces:
+
+* Dark gray
+* Graphite
+* Slightly lighter black cards
+
+Use a restrained accent color:
+
+* Electric cyan / clinical blue
+* Small amounts of green for positive/normal results
+* Amber for warnings
+* Red only for critical abnormalities
+
+DO NOT make the entire interface colorful.
+
+The black theme must remain dominant.
+
+---
+
+# 2. LANDING / STARTING INTERFACE
+
+The first screen should immediately look impressive.
+
+Create a bold hero section.
+
+Large headline:
+
+"Turn Medical Data Into Clinical Intelligence."
+
+Supporting text:
+
+"MedLens transforms patient information and medical reports into a structured, understandable, and reviewable health record."
+
+Add two primary buttons:
+
+"Create Patient Record"
+
+"Upload Medical Report"
+
+Add a subtle visual representation of medical intelligence on the right side.
+
+For example:
+
+* Floating medical data cards
+* Lab result cards
+* Patient profile card
+* AI processing indicator
+* Small charts
+* Medical document visualization
+
+Use subtle animations.
+
+Do NOT overcrowd the landing page.
+
+---
+
+# 3. NAVIGATION
+
+Create a clean sidebar navigation.
+
+Logo:
+
+MEDLENS
+
+Navigation items:
+
+* Dashboard
+* Patients
+* Reports
+* Medical Records
+* AI Insights
+* Settings
+
+At the bottom:
+
+* User profile
+* Help
+* Theme/status indicator
+
+Sidebar should be collapsible.
+
+On mobile, convert it into a responsive navigation drawer.
+
+---
+
+# 4. DASHBOARD
+
+Create a professional clinical dashboard.
+
+Top section:
+
+"Good morning"
+
+"Clinical Information Overview"
+
+Display summary cards:
+
+* Total Patients
+* Medical Reports
+* Reports Processed
+* Pending Reviews
+
+Use attractive but minimal icons.
+
+Below this create:
+
+### Recent Patients
+
+Show:
+
+Patient name
+Age
+Sex
+Last updated
+Conditions
+Status
+
+Example statuses:
+
+* Stable
+* Needs Review
+* Critical
+* Processing
+
+---
+
+### Recent Reports
+
+Display:
+
+Report name
+Patient
+Report type
+Date
+Processing status
+
+Example:
+
+CBC Blood Test
+Patient: John Doe
+12 Aug 2026
+Processed
+
+---
+
+### AI Activity
+
+Show recent AI processing activity:
+
+"Blood report analyzed"
+
+"Medication information extracted"
+
+"Abnormal lab value detected"
+
+"Patient record updated"
+
+---
+
+# 5. PATIENT INFORMATION INTAKE
+
+Create a dedicated "Create Patient Record" page.
+
+Use a clean multi-step form.
+
+STEP 1 — BASIC INFORMATION
+
+Fields:
+
+* Patient Name
+* Age
+* Date of Birth
+* Sex
+* Blood Group
+* Height
+* Weight
+
+STEP 2 — CLINICAL INFORMATION
+
+Fields:
+
+* Current Symptoms
+* Existing Conditions
+* Past Medical History
+* Surgical History
+* Family Medical History
+
+STEP 3 — MEDICATIONS & ALLERGIES
+
+Fields:
+
+* Current Medications
+* Dosage
+* Frequency
+* Allergies
+* Known Drug Allergies
+
+STEP 4 — ADDITIONAL INFORMATION
+
+Fields:
+
+* Lifestyle information
+* Smoking
+* Alcohol
+* Other relevant notes
+
+Include:
+
+"Save Patient"
+
+"Save & Continue"
+
+buttons.
+
+Use proper form validation.
+
+---
+
+# 6. PATIENT PROFILE
+
+After creating a patient, show a complete patient profile.
+
+Header:
+
+Patient Name
+Age | Sex | Blood Group
+
+Add status badge.
+
+Example:
+
+"Active Record"
+
+Create tabs:
+
+* Overview
+* Medical History
+* Lab Results
+* Medications
+* Reports
+* AI Insights
+* Timeline
+
+---
+
+# 7. STRUCTURED MEDICAL RECORD
+
+This is one of the MOST IMPORTANT parts of the application.
+
+Transform scattered medical information into a structured record.
+
+Create sections:
+
+### Patient Summary
+
+Show:
+
+Age
+Sex
+Blood Group
+Known Conditions
+Allergies
+Current Medications
+
+---
+
+### Medical History
+
+Show a chronological timeline.
+
+Example:
+
+2026
+
+* Diagnosed with condition
+* Started medication
+
+2025
+
+* Previous consultation
+
+---
+
+### Medications
+
+Table:
+
+Medication
+Dosage
+Frequency
+Start Date
+Status
+
+---
+
+### Allergies
+
+Display allergies prominently.
+
+Use warning styling.
+
+---
+
+### Conditions
+
+Cards containing:
+
+Condition name
+Status
+Date identified
+Notes
+
+---
+
+# 8. MEDICAL REPORT UPLOAD
+
+Create a dedicated report processing page.
+
+Allow users to upload:
+
+* PDF
+* JPG
+* JPEG
+* PNG
+
+Create a beautiful drag-and-drop upload area.
+
+Text:
+
+"Drop your medical report here"
+
+"or click to browse"
+
+Below:
+
+"Supported formats: PDF, JPG, JPEG, PNG"
+
+After upload, show:
+
+File name
+File size
+Upload progress
+Processing status
+
+Stages:
+
+1. Uploading
+2. Reading document
+3. Extracting medical data
+4. Structuring results
+5. Generating insights
+6. Complete
+
+Use an attractive AI processing animation.
+
+---
+
+# 9. MEDICAL REPORT PROCESSING
+
+Implement an AI-powered pipeline.
+
+The system should extract:
+
+* Patient name
+* Report date
+* Test name
+* Test value
+* Unit
+* Reference range
+* Observation
+* Abnormal values
+* Laboratory name
+* Doctor name if available
+* Report type
+
+For laboratory reports, structure data like:
+
+TEST | RESULT | UNIT | REFERENCE RANGE | STATUS
+
+Example:
+
+Hemoglobin | 13.8 | g/dL | 13–17 | Normal
+
+WBC | 12,400 | cells/µL | 4,000–11,000 | High
+
+Platelets | 250,000 | /µL | 150,000–450,000 | Normal
+
+---
+
+# 10. AI EXTRACTION RESULT
+
+After processing a report, show an attractive result page.
+
+Header:
+
+"Report Analysis Complete"
+
+Show:
+
+* Report type
+* Report date
+* Patient
+* Number of values extracted
+* Number of abnormal values
+
+Then create:
+
+### Extracted Laboratory Results
+
+Use a professional table.
+
+Normal results:
+Green status indicator
+
+High:
+Amber/red indicator
+
+Low:
+Amber/red indicator
+
+Unknown:
+Gray indicator
+
+---
+
+# 11. AI CLINICAL SUMMARY
+
+Create an AI-generated summary section.
+
+Title:
+
+"AI Clinical Summary"
+
+Example structure:
+
+"Key findings from this report"
+
+Then show concise bullet points.
+
+For example:
+
+* Hemoglobin is within the provided reference range.
+* WBC count is above the provided reference range.
+* Platelet count is within the provided reference range.
+
+IMPORTANT:
+
+The AI must NOT diagnose diseases.
+
+It should only summarize and organize the information contained in the uploaded document.
+
+Display a disclaimer:
+
+"AI-generated information is for informational and organizational purposes only and is not a medical diagnosis or a substitute for professional medical advice."
+
+---
+
+# 12. AI INSIGHTS
+
+Create a dedicated AI Insights page.
+
+Show sections:
+
+### Key Findings
+
+Important extracted observations.
+
+### Abnormal Values
+
+List abnormal lab values.
+
+### Trends
+
+If multiple reports exist for the same patient, compare historical values.
+
+Example:
+
+Hemoglobin
+
+Previous: 12.4
+Current: 13.8
+Trend: Improving
+
+Use simple charts.
+
+### Missing Information
+
+Show information that may be missing from the patient record.
+
+Example:
+
+* Blood group not provided
+* Medication dosage unavailable
+
+---
+
+# 13. LAB TREND VISUALIZATION
+
+When multiple reports exist, create beautiful charts.
+
+Examples:
+
+* Hemoglobin trend
+* Blood glucose trend
+* WBC trend
+* Platelet trend
+
+Charts should show:
+
+Date
+Value
+Reference range where possible
+
+Keep charts simple and readable.
+
+---
+
+# 14. MEDICAL TIMELINE
+
+Create a chronological medical timeline.
+
+Example:
+
+September 2026
+↓
+Blood report uploaded
+
+August 2026
+↓
+Medication added
+
+July 2026
+↓
+Patient record created
+
+Use a clean vertical timeline.
+
+---
+
+# 15. REPORT LIBRARY
+
+Create a page called:
+
+"Medical Reports"
+
+Display uploaded documents in cards/table.
+
+Columns:
+
+Report
+Patient
+Type
+Date
+Status
+Actions
+
+Actions:
+
+* View
+* Analyze
+* Download
+* Delete
+
+Add search and filters.
+
+Filters:
+
+* Report type
+* Patient
+* Date
+* Processing status
+
+---
+
+# 16. SEARCH
+
+Implement global search.
+
+Users should be able to search:
+
+* Patient names
+* Medical reports
+* Conditions
+* Medications
+* Lab tests
+
+Create a clean search interface.
+
+---
+
+# 17. DATABASE
+
+Use a proper database architecture.
+
+Create tables/models for:
+
+### Patients
+
+id
+name
+dateOfBirth
+age
+sex
+bloodGroup
+height
+weight
+symptoms
+conditions
+allergies
+medicalHistory
+surgicalHistory
+familyHistory
+lifestyle
+createdAt
+updatedAt
+
+### Medications
+
+id
+patientId
+name
+dosage
+frequency
+startDate
+endDate
+status
+
+### Reports
+
+id
+patientId
+fileName
+fileType
+fileUrl
+reportType
+reportDate
+processingStatus
+createdAt
+
+### LabResults
+
+id
+reportId
+patientId
+testName
+value
+unit
+referenceRange
+status
+observation
+testDate
+
+### AIInsights
+
+id
+patientId
+reportId
+summary
+keyFindings
+abnormalValues
+missingInformation
+createdAt
+
+---
+
+# 18. AI IMPLEMENTATION
+
+Integrate an AI API if available through environment variables.
+
+Use the AI for:
+
+1. Medical report text analysis
+2. Information extraction
+3. Laboratory result structuring
+4. Summary generation
+5. Comparison of historical results
+6. Identification of values outside the provided reference range
+
+The AI should return structured JSON whenever possible.
+
+Example:
+
+{
+"reportType": "Blood Test",
+"reportDate": "2026-08-12",
+"tests": [
+{
+"name": "Hemoglobin",
+"value": 13.8,
+"unit": "g/dL",
+"referenceRange": "13-17",
+"status": "Normal",
+"observation": ""
+}
+]
+}
+
+If the AI API is not configured, implement a DEMO MODE using realistic mock data so that the entire application remains functional.
+
+Clearly label demo-generated data as demo data.
+
+---
+
+# 19. SECURITY & PRIVACY
+
+Treat medical information as sensitive.
+
+Implement:
+
+* Authentication
+* Protected routes
+* Secure database access
+* Environment variables for API keys
+* File type validation
+* File size validation
+* No API keys in frontend code
+* Proper error handling
+
+Do not expose sensitive medical information unnecessarily.
+
+---
+
+# 20. RESPONSIVE DESIGN
+
+The application MUST work beautifully on:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+Desktop should use the sidebar layout.
+
+Mobile should use:
+
+* Top navigation
+* Collapsible menu
+* Responsive cards
+* Horizontally scrollable tables where necessary
+
+---
+
+# 21. UI / UX DETAILS
+
+Use modern UI components:
+
+* Rounded cards
+* Subtle borders
+* Soft shadows
+* Glass-like effects where appropriate
+* Smooth hover states
+* Skeleton loaders
+* Toast notifications
+* Modal dialogs
+* Confirmation dialogs
+
+Animations should be subtle and professional.
+
+Avoid excessive animations.
+
+Use consistent spacing.
+
+Use a modern font such as Inter.
+
+---
+
+# 22. ICONS
+
+Use a professional icon library such as Lucide.
+
+Do not use random emoji as interface icons.
+
+Icons should be consistent throughout the application.
+
+---
+
+# 23. IMPORTANT EMPTY STATES
+
+Every major page should have a useful empty state.
+
+Example:
+
+No patients yet.
+
+"Create your first patient record to begin organizing clinical information."
+
+Button:
+
+"Create Patient"
+
+For reports:
+
+"No medical reports uploaded yet."
+
+Button:
+
+"Upload Report"
+
+---
+
+# 24. ERROR HANDLING
+
+Create user-friendly errors.
+
+Examples:
+
+"Unable to process this document."
+
+"Please upload a valid PDF or image."
+
+"Something went wrong while extracting the report. Please try again."
+
+Never display raw technical errors to the user.
+
+---
+
+# 25. DEMO DATA
+
+Populate the application with realistic demo data so the UI looks complete immediately after launch.
+
+Create at least:
+
+3 demo patients
+
+Each patient should have:
+
+* Conditions
+* Medications
+* Medical history
+* Reports
+* Laboratory results
+* AI insights
+
+Use fictional names and clearly mark demo data where appropriate.
+
+---
+
+# 26. TECHNOLOGY
+
+Use a modern production-style stack.
+
+Preferred:
+
+Frontend:
+
+* React
+* TypeScript
+* Tailwind CSS
+
+Backend:
+
+* Node.js
+* Express or the appropriate Replit backend architecture
+
+Database:
+
+* PostgreSQL
+
+ORM:
+
+* Prisma or equivalent
+
+Charts:
+
+* Recharts
+
+Icons:
+
+* Lucide React
+
+Authentication:
+
+* Secure session/authentication system
+
+AI:
+
+* OpenAI-compatible API using environment variables
+
+If Replit recommends a different native architecture, use the best supported architecture while maintaining the same functionality.
+
+---
+
+# 27. CODE QUALITY
+
+Write clean, modular, maintainable code.
+
+Separate:
+
+* Components
+* Pages
+* API routes
+* Database models
+* AI services
+* Utilities
+* Types
+
+Avoid putting the entire application in one file.
+
+Use reusable components.
+
+Use TypeScript types throughout.
+
+Add loading states and error states.
+
+---
+
+# 28. FINAL USER FLOW
+
+The complete user journey should be:
+
+Landing Page
+↓
+Dashboard
+↓
+Create Patient
+↓
+Patient Profile
+↓
+Upload Medical Report
+↓
+AI Processing
+↓
+Extracted Medical Data
+↓
+Structured Medical Record
+↓
+AI Clinical Summary
+↓
+Lab Results
+↓
+Historical Trends
+↓
+Medical Timeline
+
+The user should always understand where they are and what to do next.
+
+---
+
+# 29. MOST IMPORTANT DESIGN REQUIREMENT
+
+The interface should immediately communicate:
+
+"Medical information, organized intelligently."
+
+It should NOT look like:
+
+* A generic chatbot
+* A basic CRUD application
+* A hospital billing system
+* A simple file uploader
+
+It should look like a premium AI healthcare intelligence platform.
+
+Think:
+
+Modern AI SaaS + Clinical Dashboard + Medical Data Intelligence.
+
+The first impression should be visually impressive while remaining extremely clean and easy to understand.
+
+---
+
+# 30. BUILD REQUIREMENT
+
+Do not only create static UI mockups.
+
+BUILD THE FUNCTIONAL APPLICATION.
+
+Implement:
+
+* Navigation
+* Routing
+* Forms
+* Database
+* Patient creation
+* Patient records
+* Report upload
+* Report processing
+* AI extraction
+* Structured results
+* Search
+* Filters
+* Charts
+* AI insights
+* Medical timeline
+* Demo mode
+* Loading states
+* Error handling
+* Responsive design
+
+Make sure the application runs successfully in Replit.
+
+Fix all build errors and runtime errors.
+
+After implementation, test the main user flow from:
+
+Create Patient → Upload Report → Process Report → View Structured Medical Record.
+
+Make the final application polished enough to demonstrate as a serious hackathon/project submission.

@@ -1,0 +1,1062 @@
+{
+  "patients": [
+    {
+      "name": "eshwar jagini",
+      "dateOfBirth": "2008-02-01",
+      "age": 18,
+      "sex": "Male",
+      "bloodGroup": "O+",
+      "height": 170,
+      "weight": 53,
+      "symptoms": [],
+      "conditions": [],
+      "allergies": [],
+      "medicalHistory": [
+        {
+          "year": "2024",
+          "event": "Annual routine health assessment"
+        }
+      ],
+      "surgicalHistory": [],
+      "familyHistory": [],
+      "lifestyle": {
+        "smoking": "Never",
+        "alcohol": "None",
+        "activity": "Sedentary",
+        "notes": ""
+      },
+      "status": "Stable",
+      "id": "patient-1788617637320",
+      "createdAt": "2026-09-05T14:13:57.320Z",
+      "updatedAt": "2026-09-05T14:13:57.320Z"
+    },
+    {
+      "id": "patient-1",
+      "name": "Eleanor Vance",
+      "dateOfBirth": "1964-03-14",
+      "age": 62,
+      "sex": "Female",
+      "bloodGroup": "A+",
+      "height": 165,
+      "weight": 74,
+      "symptoms": [
+        "Mild peripheral neuropathy",
+        "Episodic afternoon fatigue",
+        "Occasional blurred vision"
+      ],
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Essential Hypertension",
+        "Mild Hyperlipidemia"
+      ],
+      "allergies": [
+        "Penicillin (severe hives & rash)",
+        "Sulfa antibiotics"
+      ],
+      "medicalHistory": [
+        {
+          "year": "2026",
+          "event": "Diabetic neuropathy clinical assessment & HbA1c review",
+          "type": "Consultation"
+        },
+        {
+          "year": "2024",
+          "event": "Diagnosed with Primary Essential Hypertension",
+          "type": "Diagnosis"
+        },
+        {
+          "year": "2021",
+          "event": "Confirmed diagnosis of Type 2 Diabetes Mellitus",
+          "type": "Diagnosis"
+        },
+        {
+          "year": "2018",
+          "event": "Laparoscopic Cholecystectomy for cholelithiasis",
+          "type": "Surgery"
+        }
+      ],
+      "surgicalHistory": [
+        {
+          "year": "2018",
+          "procedure": "Laparoscopic Cholecystectomy",
+          "hospital": "St. Jude Memorial Hospital"
+        }
+      ],
+      "familyHistory": [
+        "Mother: Type 2 Diabetes, Cerebrovascular accident at 70",
+        "Father: Coronary Artery Disease"
+      ],
+      "lifestyle": {
+        "smoking": "Never",
+        "alcohol": "Occasional",
+        "activity": "Moderate",
+        "notes": "Brisk walks 30 minutes 3x/week. Follows moderate Mediterranean-style carbohydrate control."
+      },
+      "status": "Needs Review",
+      "createdAt": "2026-01-10T08:30:00.000Z",
+      "updatedAt": "2026-08-14T14:22:00.000Z"
+    },
+    {
+      "id": "patient-2",
+      "name": "Marcus Sterling",
+      "dateOfBirth": "1981-07-22",
+      "age": 45,
+      "sex": "Male",
+      "bloodGroup": "O-",
+      "height": 182,
+      "weight": 89,
+      "symptoms": [
+        "Exertional shortness of breath",
+        "Stress-related palpitations",
+        "Left shoulder tension"
+      ],
+      "conditions": [
+        "Mixed Hyperlipidemia",
+        "Stage 1 Essential Hypertension",
+        "Coronary Artery Calcification (Mild)"
+      ],
+      "allergies": [
+        "Aspirin (gastric irritation & erosions)",
+        "Codeine (severe nausea)"
+      ],
+      "medicalHistory": [
+        {
+          "year": "2026",
+          "event": "Coronary Calcium CT Score (Agatston: 84) Plaque documented",
+          "type": "Diagnosis"
+        },
+        {
+          "year": "2025",
+          "event": "Markedly elevated LDL-C (184 mg/dL) identified on executive checkup",
+          "type": "Diagnosis"
+        },
+        {
+          "year": "2023",
+          "event": "Borderline elevated BP diagnosed as Stage 1 Hypertension",
+          "type": "Diagnosis"
+        },
+        {
+          "year": "2012",
+          "event": "Right knee ACL reconstruction surgery",
+          "type": "Surgery"
+        }
+      ],
+      "surgicalHistory": [
+        {
+          "year": "2012",
+          "procedure": "Right ACL Arthroscopic Reconstruction",
+          "hospital": "Orthopedic Specialty Center"
+        }
+      ],
+      "familyHistory": [
+        "Father: Premature Myocardial Infarction at age 52",
+        "Paternal Uncle: Triple CABG at age 58"
+      ],
+      "lifestyle": {
+        "smoking": "Former",
+        "alcohol": "Occasional",
+        "activity": "Moderate",
+        "notes": "Quit smoking in 2019. High corporate stress level. Runs 5k twice weekly."
+      },
+      "status": "Stable",
+      "createdAt": "2026-02-18T10:00:00.000Z",
+      "updatedAt": "2026-07-29T16:45:00.000Z"
+    },
+    {
+      "id": "patient-3",
+      "name": "Dr. Sophia Ramirez",
+      "dateOfBirth": "1995-11-04",
+      "age": 31,
+      "sex": "Female",
+      "bloodGroup": "B+",
+      "height": 168,
+      "weight": 58,
+      "symptoms": [
+        "Severe unrefreshing fatigue",
+        "Cold intolerance & pallor",
+        "Brittle nails",
+        "Post-exercise malaise"
+      ],
+      "conditions": [
+        "Microcytic Hypochromic Anemia",
+        "Depleted Iron Stores",
+        "Post-viral Asthenia"
+      ],
+      "allergies": [
+        "Shellfish (lip & facial angioedema)",
+        "NKDA (No Known Drug Allergies)"
+      ],
+      "medicalHistory": [
+        {
+          "year": "2026",
+          "event": "Precipitous decline in serum Ferritin to 8 ng/mL; started oral iron therapy",
+          "type": "Medication"
+        },
+        {
+          "year": "2025",
+          "event": "Comprehensive workup for persistent shift-work fatigue",
+          "type": "Consultation"
+        },
+        {
+          "year": "2020",
+          "event": "Sports-related concussion with full recovery",
+          "type": "Consultation"
+        }
+      ],
+      "surgicalHistory": [],
+      "familyHistory": [
+        "Mother: Hashimoto's Autoimmune Thyroiditis",
+        "Sister: Celiac Disease (Marsh 3b)"
+      ],
+      "lifestyle": {
+        "smoking": "Never",
+        "alcohol": "None",
+        "activity": "Sedentary",
+        "notes": "Strict vegetarian diet for 8 years. Medical resident with irregular night shifts."
+      },
+      "status": "Critical",
+      "createdAt": "2026-03-01T09:15:00.000Z",
+      "updatedAt": "2026-08-02T11:10:00.000Z"
+    }
+  ],
+  "medications": [
+    {
+      "id": "med-101",
+      "patientId": "patient-1",
+      "name": "Metformin Hydrochloride",
+      "dosage": "850 mg",
+      "frequency": "Twice daily with meals",
+      "startDate": "2021-04-12",
+      "status": "Active"
+    },
+    {
+      "id": "med-102",
+      "patientId": "patient-1",
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily in the morning",
+      "startDate": "2024-02-15",
+      "status": "Active"
+    },
+    {
+      "id": "med-103",
+      "patientId": "patient-1",
+      "name": "Atorvastatin Calcium",
+      "dosage": "20 mg",
+      "frequency": "Once daily at bedtime",
+      "startDate": "2024-06-10",
+      "status": "Active"
+    },
+    {
+      "id": "med-201",
+      "patientId": "patient-2",
+      "name": "Rosuvastatin",
+      "dosage": "20 mg",
+      "frequency": "Once daily in the evening",
+      "startDate": "2025-09-01",
+      "status": "Active"
+    },
+    {
+      "id": "med-202",
+      "patientId": "patient-2",
+      "name": "Amlodipine Besylate",
+      "dosage": "5 mg",
+      "frequency": "Once daily in the morning",
+      "startDate": "2023-11-14",
+      "status": "Active"
+    },
+    {
+      "id": "med-301",
+      "patientId": "patient-3",
+      "name": "Ferrous Sulfate",
+      "dosage": "325 mg (65 mg elemental iron)",
+      "frequency": "Once daily on empty stomach with Vitamin C",
+      "startDate": "2026-08-03",
+      "status": "Active"
+    },
+    {
+      "id": "med-302",
+      "patientId": "patient-3",
+      "name": "Ascorbic Acid (Vitamin C)",
+      "dosage": "500 mg",
+      "frequency": "Once daily with iron supplement",
+      "startDate": "2026-08-03",
+      "status": "Active"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep-101",
+      "patientId": "patient-1",
+      "fileName": "Eleanor_Vance_Metabolic_HbA1c_Aug2026.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 1845000,
+      "reportType": "Comprehensive Metabolic Panel & HbA1c",
+      "reportDate": "2026-08-14",
+      "processingStatus": "Processed",
+      "doctorName": "Dr. Michael Hayes, MD",
+      "laboratoryName": "Apex Diagnostic Labs, Metro Clinical Center",
+      "createdAt": "2026-08-14T11:20:00.000Z"
+    },
+    {
+      "id": "rep-102",
+      "patientId": "patient-1",
+      "fileName": "Eleanor_Vance_CBC_Differential_May2026.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 1420000,
+      "reportType": "Complete Blood Count (CBC) with Differential",
+      "reportDate": "2026-05-10",
+      "processingStatus": "Processed",
+      "doctorName": "Dr. Michael Hayes, MD",
+      "laboratoryName": "Apex Diagnostic Labs",
+      "createdAt": "2026-05-10T09:45:00.000Z"
+    },
+    {
+      "id": "rep-103",
+      "patientId": "patient-1",
+      "fileName": "Eleanor_Vance_Historical_Metabolic_Nov2025.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 1610000,
+      "reportType": "Comprehensive Metabolic Panel",
+      "reportDate": "2025-11-20",
+      "processingStatus": "Processed",
+      "doctorName": "Dr. Michael Hayes, MD",
+      "laboratoryName": "Apex Diagnostic Labs",
+      "createdAt": "2025-11-20T14:10:00.000Z"
+    },
+    {
+      "id": "rep-201",
+      "patientId": "patient-2",
+      "fileName": "Marcus_Sterling_Advanced_Lipid_Panel_Jul2026.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 2150000,
+      "reportType": "Advanced Lipid Profile & ApoB",
+      "reportDate": "2026-07-29",
+      "processingStatus": "Processed",
+      "doctorName": "Dr. Robert Zimmerman, FACC",
+      "laboratoryName": "CardioVascular Core Laboratory",
+      "createdAt": "2026-07-29T15:30:00.000Z"
+    },
+    {
+      "id": "rep-202",
+      "patientId": "patient-2",
+      "fileName": "Marcus_Sterling_Baseline_Lipids_Aug2025.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 1980000,
+      "reportType": "Lipid Panel",
+      "reportDate": "2025-08-15",
+      "processingStatus": "Processed",
+      "doctorName": "Dr. Robert Zimmerman, FACC",
+      "laboratoryName": "CardioVascular Core Laboratory",
+      "createdAt": "2025-08-15T10:15:00.000Z"
+    },
+    {
+      "id": "rep-301",
+      "patientId": "patient-3",
+      "fileName": "Sophia_Ramirez_CBC_Iron_Studies_Aug2026.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 1890000,
+      "reportType": "Complete Blood Count & Comprehensive Iron Panel",
+      "reportDate": "2026-08-02",
+      "processingStatus": "Processed",
+      "doctorName": "Dr. Rebecca Stern, Hematology",
+      "laboratoryName": "BioHealth Reference Diagnostics",
+      "createdAt": "2026-08-02T10:50:00.000Z"
+    },
+    {
+      "id": "rep-302",
+      "patientId": "patient-3",
+      "fileName": "Sophia_Ramirez_Baseline_CBC_Jan2026.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 1540000,
+      "reportType": "Complete Blood Count",
+      "reportDate": "2026-01-15",
+      "processingStatus": "Processed",
+      "doctorName": "Dr. Rebecca Stern, Hematology",
+      "laboratoryName": "BioHealth Reference Diagnostics",
+      "createdAt": "2026-01-15T13:25:00.000Z"
+    }
+  ],
+  "labResults": [
+    {
+      "id": "lab-101",
+      "reportId": "rep-101",
+      "patientId": "patient-1",
+      "testName": "Hemoglobin A1c (HbA1c)",
+      "value": 7.6,
+      "unit": "%",
+      "referenceRange": "< 5.7 (Normal), < 7.0 (Target)",
+      "status": "High",
+      "observation": "Persistent hyperglycemia; improved from previous 8.1%",
+      "testDate": "2026-08-14"
+    },
+    {
+      "id": "lab-102",
+      "reportId": "rep-101",
+      "patientId": "patient-1",
+      "testName": "Fasting Blood Glucose",
+      "value": 152,
+      "unit": "mg/dL",
+      "referenceRange": "70 - 99",
+      "status": "High",
+      "observation": "Elevated fasting plasma glucose level",
+      "testDate": "2026-08-14"
+    },
+    {
+      "id": "lab-103",
+      "reportId": "rep-101",
+      "patientId": "patient-1",
+      "testName": "Estimated GFR (eGFR)",
+      "value": 78,
+      "unit": "mL/min/1.73m²",
+      "referenceRange": "> 60",
+      "status": "Normal",
+      "observation": "Stable renal filtration rate; Stage 2 mild age-appropriate",
+      "testDate": "2026-08-14"
+    },
+    {
+      "id": "lab-104",
+      "reportId": "rep-101",
+      "patientId": "patient-1",
+      "testName": "Serum Creatinine",
+      "value": 1.02,
+      "unit": "mg/dL",
+      "referenceRange": "0.59 - 1.04",
+      "status": "Normal",
+      "observation": "Within normal clinical limits",
+      "testDate": "2026-08-14"
+    },
+    {
+      "id": "lab-105",
+      "reportId": "rep-101",
+      "patientId": "patient-1",
+      "testName": "Blood Urea Nitrogen (BUN)",
+      "value": 18,
+      "unit": "mg/dL",
+      "referenceRange": "7 - 20",
+      "status": "Normal",
+      "observation": "Within normal baseline range",
+      "testDate": "2026-08-14"
+    },
+    {
+      "id": "lab-106",
+      "reportId": "rep-101",
+      "patientId": "patient-1",
+      "testName": "Serum Potassium",
+      "value": 4.4,
+      "unit": "mmol/L",
+      "referenceRange": "3.5 - 5.0",
+      "status": "Normal",
+      "observation": "Electrolyte balance preserved on Lisinopril",
+      "testDate": "2026-08-14"
+    },
+    {
+      "id": "lab-107",
+      "reportId": "rep-102",
+      "patientId": "patient-1",
+      "testName": "Hemoglobin",
+      "value": 13.2,
+      "unit": "g/dL",
+      "referenceRange": "12.0 - 15.5",
+      "status": "Normal",
+      "observation": "Erythrocyte mass stable and well-preserved",
+      "testDate": "2026-05-10"
+    },
+    {
+      "id": "lab-108",
+      "reportId": "rep-102",
+      "patientId": "patient-1",
+      "testName": "White Blood Cells (WBC)",
+      "value": 7200,
+      "unit": "cells/µL",
+      "referenceRange": "4,500 - 11,000",
+      "status": "Normal",
+      "observation": "No leukocytosis or signs of acute infection",
+      "testDate": "2026-05-10"
+    },
+    {
+      "id": "lab-109",
+      "reportId": "rep-102",
+      "patientId": "patient-1",
+      "testName": "Platelets",
+      "value": 235000,
+      "unit": "/µL",
+      "referenceRange": "150,000 - 450,000",
+      "status": "Normal",
+      "observation": "Adequate thrombocyte count",
+      "testDate": "2026-05-10"
+    },
+    {
+      "id": "lab-110",
+      "reportId": "rep-103",
+      "patientId": "patient-1",
+      "testName": "Hemoglobin A1c (HbA1c)",
+      "value": 8.1,
+      "unit": "%",
+      "referenceRange": "< 5.7 (Normal), < 7.0 (Target)",
+      "status": "High",
+      "observation": "Poor glycemic regulation prior to dosage adjustment",
+      "testDate": "2025-11-20"
+    },
+    {
+      "id": "lab-111",
+      "reportId": "rep-103",
+      "patientId": "patient-1",
+      "testName": "Fasting Blood Glucose",
+      "value": 168,
+      "unit": "mg/dL",
+      "referenceRange": "70 - 99",
+      "status": "High",
+      "observation": "Elevated baseline glucose",
+      "testDate": "2025-11-20"
+    },
+    {
+      "id": "lab-201",
+      "reportId": "rep-201",
+      "patientId": "patient-2",
+      "testName": "Total Cholesterol",
+      "value": 210,
+      "unit": "mg/dL",
+      "referenceRange": "< 200",
+      "status": "High",
+      "observation": "Mild elevation; significantly improved from baseline 262",
+      "testDate": "2026-07-29"
+    },
+    {
+      "id": "lab-202",
+      "reportId": "rep-201",
+      "patientId": "patient-2",
+      "testName": "LDL Cholesterol (Calculated)",
+      "value": 128,
+      "unit": "mg/dL",
+      "referenceRange": "< 100",
+      "status": "High",
+      "observation": "Above ideal cardiovascular target of <100 mg/dL",
+      "testDate": "2026-07-29"
+    },
+    {
+      "id": "lab-203",
+      "reportId": "rep-201",
+      "patientId": "patient-2",
+      "testName": "HDL Cholesterol",
+      "value": 46,
+      "unit": "mg/dL",
+      "referenceRange": "> 40",
+      "status": "Normal",
+      "observation": "Within protective boundaries",
+      "testDate": "2026-07-29"
+    },
+    {
+      "id": "lab-204",
+      "reportId": "rep-201",
+      "patientId": "patient-2",
+      "testName": "Triglycerides",
+      "value": 180,
+      "unit": "mg/dL",
+      "referenceRange": "< 150",
+      "status": "High",
+      "observation": "Borderline hypertriglyceridemia",
+      "testDate": "2026-07-29"
+    },
+    {
+      "id": "lab-205",
+      "reportId": "rep-201",
+      "patientId": "patient-2",
+      "testName": "Apolipoprotein B (ApoB)",
+      "value": 98,
+      "unit": "mg/dL",
+      "referenceRange": "< 90",
+      "status": "High",
+      "observation": "Atherogenic particle burden modestly elevated",
+      "testDate": "2026-07-29"
+    },
+    {
+      "id": "lab-206",
+      "reportId": "rep-202",
+      "patientId": "patient-2",
+      "testName": "Total Cholesterol",
+      "value": 262,
+      "unit": "mg/dL",
+      "referenceRange": "< 200",
+      "status": "High",
+      "observation": "Severe hypercholesterolemia pre-statin intervention",
+      "testDate": "2025-08-15"
+    },
+    {
+      "id": "lab-207",
+      "reportId": "rep-202",
+      "patientId": "patient-2",
+      "testName": "LDL Cholesterol (Calculated)",
+      "value": 184,
+      "unit": "mg/dL",
+      "referenceRange": "< 100",
+      "status": "High",
+      "observation": "Markedly elevated atherogenic lipoprotein level",
+      "testDate": "2025-08-15"
+    },
+    {
+      "id": "lab-208",
+      "reportId": "rep-202",
+      "patientId": "patient-2",
+      "testName": "Triglycerides",
+      "value": 215,
+      "unit": "mg/dL",
+      "referenceRange": "< 150",
+      "status": "High",
+      "observation": "Significant hypertriglyceridemia",
+      "testDate": "2025-08-15"
+    },
+    {
+      "id": "lab-301",
+      "reportId": "rep-301",
+      "patientId": "patient-3",
+      "testName": "Hemoglobin",
+      "value": 9.8,
+      "unit": "g/dL",
+      "referenceRange": "12.0 - 15.5",
+      "status": "Low",
+      "observation": "Moderate microcytic anemia; symptomatic with fatigue",
+      "testDate": "2026-08-02"
+    },
+    {
+      "id": "lab-302",
+      "reportId": "rep-301",
+      "patientId": "patient-3",
+      "testName": "Serum Ferritin",
+      "value": 8,
+      "unit": "ng/mL",
+      "referenceRange": "15 - 150",
+      "status": "Critical",
+      "observation": "Severely depleted total iron storage pools",
+      "testDate": "2026-08-02"
+    },
+    {
+      "id": "lab-303",
+      "reportId": "rep-301",
+      "patientId": "patient-3",
+      "testName": "Mean Corpuscular Volume (MCV)",
+      "value": 72,
+      "unit": "fL",
+      "referenceRange": "80 - 100",
+      "status": "Low",
+      "observation": "Marked microcytosis consistent with iron restriction",
+      "testDate": "2026-08-02"
+    },
+    {
+      "id": "lab-304",
+      "reportId": "rep-301",
+      "patientId": "patient-3",
+      "testName": "Transferrin Saturation",
+      "value": 9,
+      "unit": "%",
+      "referenceRange": "20 - 50",
+      "status": "Low",
+      "observation": "Iron deficiency erythropoiesis confirmed",
+      "testDate": "2026-08-02"
+    },
+    {
+      "id": "lab-305",
+      "reportId": "rep-301",
+      "patientId": "patient-3",
+      "testName": "White Blood Cells (WBC)",
+      "value": 6100,
+      "unit": "cells/µL",
+      "referenceRange": "4,500 - 11,000",
+      "status": "Normal",
+      "observation": "Normal cellular immunity",
+      "testDate": "2026-08-02"
+    },
+    {
+      "id": "lab-306",
+      "reportId": "rep-301",
+      "patientId": "patient-3",
+      "testName": "Platelets",
+      "value": 342000,
+      "unit": "/µL",
+      "referenceRange": "150,000 - 450,000",
+      "status": "Normal",
+      "observation": "Within expected parameters (reactive upper normal)",
+      "testDate": "2026-08-02"
+    },
+    {
+      "id": "lab-307",
+      "reportId": "rep-302",
+      "patientId": "patient-3",
+      "testName": "Hemoglobin",
+      "value": 11.2,
+      "unit": "g/dL",
+      "referenceRange": "12.0 - 15.5",
+      "status": "Low",
+      "observation": "Borderline low hemoglobin; downward trajectory noted",
+      "testDate": "2026-01-15"
+    },
+    {
+      "id": "lab-308",
+      "reportId": "rep-302",
+      "patientId": "patient-3",
+      "testName": "Mean Corpuscular Volume (MCV)",
+      "value": 78,
+      "unit": "fL",
+      "referenceRange": "80 - 100",
+      "status": "Low",
+      "observation": "Early microcytosis",
+      "testDate": "2026-01-15"
+    }
+  ],
+  "insights": [
+    {
+      "id": "ins-101",
+      "patientId": "patient-1",
+      "reportId": "rep-101",
+      "summary": "Clinical synthesis confirms ongoing glycemic recovery with HbA1c trending favorably from 8.1% to 7.6% over 9 months. Renal markers (eGFR 78, Creatinine 1.02) remain stable, and serum potassium indicates good tolerance of Lisinopril therapy.",
+      "keyFindings": [
+        "HbA1c declined from 8.1% to 7.6%, reflecting improved compliance with Metformin 850mg.",
+        "Fasting glucose remains elevated at 152 mg/dL; morning dawn phenomenon suspected.",
+        "Stable renal filtration with eGFR of 78 mL/min/1.73m² and normal serum creatinine (1.02 mg/dL).",
+        "Normal serum electrolytes (Potassium 4.4 mmol/L) confirm safe ACE inhibitor dosage."
+      ],
+      "abnormalValues": [
+        {
+          "testName": "Hemoglobin A1c (HbA1c)",
+          "value": 7.6,
+          "unit": "%",
+          "flag": "High",
+          "referenceRange": "< 7.0% (Clinical Target)",
+          "clinicalSignificance": "Above ADA target of <7.0%; suggests post-prandial glycemic excursions."
+        },
+        {
+          "testName": "Fasting Blood Glucose",
+          "value": 152,
+          "unit": "mg/dL",
+          "flag": "High",
+          "referenceRange": "70 - 99 mg/dL",
+          "clinicalSignificance": "Sustained basal hepatic glucose production overnight."
+        }
+      ],
+      "missingInformation": [
+        "Urinary Albumin-to-Creatinine Ratio (uACR) screening overdue (last recorded > 14 months ago).",
+        "Annual dilated retinal ophthalmology examination not documented.",
+        "Comprehensive diabetic foot monofilament exam pending."
+      ],
+      "trends": [
+        {
+          "metric": "Hemoglobin A1c",
+          "unit": "%",
+          "normalRange": "4.0 - 5.6",
+          "points": [
+            {
+              "date": "2025-11-20",
+              "value": 8.1,
+              "reportId": "rep-103"
+            },
+            {
+              "date": "2026-08-14",
+              "value": 7.6,
+              "reportId": "rep-101"
+            }
+          ],
+          "status": "Improving",
+          "insight": "HbA1c decreased by 0.5 percentage points under active medical therapy."
+        },
+        {
+          "metric": "Fasting Blood Glucose",
+          "unit": "mg/dL",
+          "normalRange": "70 - 99",
+          "points": [
+            {
+              "date": "2025-11-20",
+              "value": 168,
+              "reportId": "rep-103"
+            },
+            {
+              "date": "2026-08-14",
+              "value": 152,
+              "reportId": "rep-101"
+            }
+          ],
+          "status": "Improving",
+          "insight": "Fasting glucose dropped 16 mg/dL; further dietary carb titration recommended."
+        }
+      ],
+      "createdAt": "2026-08-14T11:22:00.000Z"
+    },
+    {
+      "id": "ins-201",
+      "patientId": "patient-2",
+      "reportId": "rep-201",
+      "summary": "Cardiovascular risk evaluation demonstrates robust response to Rosuvastatin 20mg. Circulating LDL cholesterol dropped by 30.4% (184 to 128 mg/dL) and total cholesterol decreased from 262 to 210 mg/dL. Modest hypertriglyceridemia persists.",
+      "keyFindings": [
+        "Significant 56 mg/dL reduction in LDL-C (184 → 128 mg/dL) following statin initiation.",
+        "Apolipoprotein B is 98 mg/dL, reflecting moderate residual atherogenic particle density.",
+        "HDL cholesterol (46 mg/dL) is within normal parameters.",
+        "Triglycerides improved from 215 to 180 mg/dL, but remain above 150 mg/dL cutoff."
+      ],
+      "abnormalValues": [
+        {
+          "testName": "Total Cholesterol",
+          "value": 210,
+          "unit": "mg/dL",
+          "flag": "High",
+          "referenceRange": "< 200 mg/dL",
+          "clinicalSignificance": "Mild residual hypercholesterolemia."
+        },
+        {
+          "testName": "LDL Cholesterol",
+          "value": 128,
+          "unit": "mg/dL",
+          "flag": "High",
+          "referenceRange": "< 100 mg/dL (Goal < 70 with Agatston 84)",
+          "clinicalSignificance": "Given documented coronary plaque (CAC 84), guidelines favor LDL < 70 mg/dL."
+        },
+        {
+          "testName": "Triglycerides",
+          "value": 180,
+          "unit": "mg/dL",
+          "flag": "High",
+          "referenceRange": "< 150 mg/dL",
+          "clinicalSignificance": "May respond well to dietary refined sugar reduction and exercise."
+        }
+      ],
+      "missingInformation": [
+        "High-Sensitivity C-Reactive Protein (hs-CRP) level to evaluate vascular inflammation.",
+        "Liver Function Panel (ALT/AST) to monitor statin safety profile.",
+        "Lipoprotein(a) [Lp(a)] one-time genetic risk stratification test."
+      ],
+      "trends": [
+        {
+          "metric": "Total Cholesterol",
+          "unit": "mg/dL",
+          "normalRange": "125 - 200",
+          "points": [
+            {
+              "date": "2025-08-15",
+              "value": 262,
+              "reportId": "rep-202"
+            },
+            {
+              "date": "2026-07-29",
+              "value": 210,
+              "reportId": "rep-201"
+            }
+          ],
+          "status": "Improving",
+          "insight": "Substantial 52 mg/dL decline in total serum cholesterol."
+        },
+        {
+          "metric": "LDL Cholesterol",
+          "unit": "mg/dL",
+          "normalRange": "< 100",
+          "points": [
+            {
+              "date": "2025-08-15",
+              "value": 184,
+              "reportId": "rep-202"
+            },
+            {
+              "date": "2026-07-29",
+              "value": 128,
+              "reportId": "rep-201"
+            }
+          ],
+          "status": "Improving",
+          "insight": "LDL-C reduced by 30.4%; consideration for Ezetimibe add-on if goal <70."
+        }
+      ],
+      "createdAt": "2026-07-29T15:35:00.000Z"
+    },
+    {
+      "id": "ins-301",
+      "patientId": "patient-3",
+      "reportId": "rep-301",
+      "summary": "Clinical synthesis highlights acute microcytic hypochromic anemia driven by depleted iron reserves. Hemoglobin fell to 9.8 g/dL alongside a critically low serum ferritin of 8 ng/mL and transferrin saturation of 9%. Oral supplementation initiated.",
+      "keyFindings": [
+        "Serum Ferritin at 8 ng/mL confirms profound iron store exhaustion.",
+        "Hemoglobin decreased from 11.2 g/dL (Jan 2026) to 9.8 g/dL (Aug 2026).",
+        "Microcytosis evident with MCV of 72 fL (ref 80-100 fL).",
+        "Platelet and white blood cell lines are completely normal, excluding bone marrow aplasia."
+      ],
+      "abnormalValues": [
+        {
+          "testName": "Serum Ferritin",
+          "value": 8,
+          "unit": "ng/mL",
+          "flag": "Critical",
+          "referenceRange": "15 - 150 ng/mL",
+          "clinicalSignificance": "Diagnostic threshold for iron deficiency anemia; explains fatigue & malaise."
+        },
+        {
+          "testName": "Hemoglobin",
+          "value": 9.8,
+          "unit": "g/dL",
+          "flag": "Low",
+          "referenceRange": "12.0 - 15.5 g/dL",
+          "clinicalSignificance": "Moderate anemia; impairs systemic oxygen delivery capacity."
+        },
+        {
+          "testName": "MCV",
+          "value": 72,
+          "unit": "fL",
+          "flag": "Low",
+          "referenceRange": "80 - 100 fL",
+          "clinicalSignificance": "Small erythrocyte size caused by deficient hemoglobin synthesis."
+        }
+      ],
+      "missingInformation": [
+        "Anti-tTG IgA (Celiac disease screening) recommended in context of sister with Celiac.",
+        "Gastrointestinal blood loss screening (FOBT / FIT) to rule out occult source.",
+        "Total Iron Binding Capacity (TIBC) exact numerical level."
+      ],
+      "trends": [
+        {
+          "metric": "Hemoglobin",
+          "unit": "g/dL",
+          "normalRange": "12.0 - 15.5",
+          "points": [
+            {
+              "date": "2026-01-15",
+              "value": 11.2,
+              "reportId": "rep-302"
+            },
+            {
+              "date": "2026-08-02",
+              "value": 9.8,
+              "reportId": "rep-301"
+            }
+          ],
+          "status": "Worsening",
+          "insight": "Hemoglobin accelerated downward by 1.4 g/dL over 7 months."
+        },
+        {
+          "metric": "Mean Corpuscular Volume (MCV)",
+          "unit": "fL",
+          "normalRange": "80 - 100",
+          "points": [
+            {
+              "date": "2026-01-15",
+              "value": 78,
+              "reportId": "rep-302"
+            },
+            {
+              "date": "2026-08-02",
+              "value": 72,
+              "reportId": "rep-301"
+            }
+          ],
+          "status": "Worsening",
+          "insight": "Progressive microcytosis indicating long-standing negative iron balance."
+        }
+      ],
+      "createdAt": "2026-08-02T10:55:00.000Z"
+    }
+  ],
+  "timelineEvents": [
+    {
+      "patientId": "patient-1788617637320",
+      "date": "2026-09-05",
+      "title": "Patient Record Created",
+      "description": "New patient record initialized for eshwar jagini with baseline clinical information.",
+      "category": "Consultation",
+      "severity": "Normal",
+      "id": "tl-1788617637320"
+    },
+    {
+      "id": "tl-101",
+      "patientId": "patient-1",
+      "date": "2026-08-14",
+      "title": "Metabolic Panel & HbA1c Processed",
+      "description": "AI analyzed report from Apex Diagnostic Labs: HbA1c 7.6% (Improved from 8.1%), Glucose 152 mg/dL.",
+      "category": "Report",
+      "severity": "Warning"
+    },
+    {
+      "id": "tl-102",
+      "patientId": "patient-1",
+      "date": "2026-05-10",
+      "title": "CBC with Differential Uploaded",
+      "description": "Routine blood count confirmed normal Hemoglobin (13.2 g/dL) and WBC (7,200).",
+      "category": "Report",
+      "severity": "Normal"
+    },
+    {
+      "id": "tl-103",
+      "patientId": "patient-1",
+      "date": "2024-06-10",
+      "title": "Atorvastatin 20mg Initiated",
+      "description": "Lipid management added by Dr. Michael Hayes to counter secondary cardiovascular risk.",
+      "category": "Medication",
+      "severity": "Normal"
+    },
+    {
+      "id": "tl-104",
+      "patientId": "patient-1",
+      "date": "2024-02-15",
+      "title": "Lisinopril 10mg Prescribed",
+      "description": "Blood pressure control started following stage 1 hypertension diagnosis.",
+      "category": "Medication",
+      "severity": "Normal"
+    },
+    {
+      "id": "tl-105",
+      "patientId": "patient-1",
+      "date": "2021-04-12",
+      "title": "Type 2 Diabetes Diagnosed & Metformin Prescribed",
+      "description": "Initial diagnosis following elevated random blood glucose of 210 mg/dL and HbA1c of 8.4%.",
+      "category": "Diagnosis",
+      "severity": "Warning"
+    },
+    {
+      "id": "tl-201",
+      "patientId": "patient-2",
+      "date": "2026-07-29",
+      "title": "Advanced Lipid Profile Analyzed",
+      "description": "LDL-C showed 30.4% drop to 128 mg/dL on Rosuvastatin 20mg. Total cholesterol 210 mg/dL.",
+      "category": "Report",
+      "severity": "Normal"
+    },
+    {
+      "id": "tl-202",
+      "patientId": "patient-2",
+      "date": "2026-02-18",
+      "title": "Coronary Calcium CT Score: Agatston 84",
+      "description": "Documented mild calcified plaque in left anterior descending artery.",
+      "category": "Diagnosis",
+      "severity": "Warning"
+    },
+    {
+      "id": "tl-203",
+      "patientId": "patient-2",
+      "date": "2025-09-01",
+      "title": "Rosuvastatin 20mg Started",
+      "description": "Intensive lipid-lowering therapy initiated by Dr. Robert Zimmerman.",
+      "category": "Medication",
+      "severity": "Normal"
+    },
+    {
+      "id": "tl-301",
+      "patientId": "patient-3",
+      "date": "2026-08-03",
+      "title": "High-Dose Oral Iron Therapy Prescribed",
+      "description": "Ferrous Sulfate 325mg once daily initiated with 500mg Vitamin C for iron deficiency anemia.",
+      "category": "Medication",
+      "severity": "Critical"
+    },
+    {
+      "id": "tl-302",
+      "patientId": "patient-3",
+      "date": "2026-08-02",
+      "title": "Iron Studies & CBC Report Processed",
+      "description": "Critical lab finding: Ferritin 8 ng/mL, Hemoglobin 9.8 g/dL, MCV 72 fL.",
+      "category": "Report",
+      "severity": "Critical"
+    },
+    {
+      "id": "tl-303",
+      "patientId": "patient-3",
+      "date": "2026-01-15",
+      "title": "Routine Health Maintenance CBC",
+      "description": "Mild borderline hemoglobin (11.2 g/dL) identified during resident health screening.",
+      "category": "Report",
+      "severity": "Warning"
+    }
+  ]
+}
